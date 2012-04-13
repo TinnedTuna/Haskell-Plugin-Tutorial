@@ -4,5 +4,5 @@ data Interface = Interface {
   greet :: String -> String
 }
 
---plugin :: Interface
---plugin = Interface { greet = ("Hello, " ++)  }
+plugin :: Interface
+plugin = Interface { greet = ("Hello, " ++)  }
